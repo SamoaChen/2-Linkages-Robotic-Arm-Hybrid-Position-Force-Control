@@ -5,12 +5,12 @@
 * The robotic arm system also integrated self calibrating and angle overshoot proof mechanisms
 
 ## Main equipments and material used
-*Arduino Uno 
-*Raspberry Pi 3b+
-*2x geared motor with encoder
-*Lever switches 
-*Force sensitive resistor
-*L298N motor driver 
-*Regular cardboard
-*Epoxy
+* Arduino Uno 
+* Raspberry Pi 3b+
+* 2x geared motor with encoder
+* Lever switches 
+* Force sensitive resistor
+* L298N motor driver 
+* Regular cardboard
+* Epoxy
 
