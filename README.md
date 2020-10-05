@@ -119,9 +119,40 @@ A stereo camera is made by combining two raspberry pi 5 MP camreas, the distance
    <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_2.JPG" width="30%" height="30%">
 </p>
 
-The cameras are calibrated with the help of matlab camera calibration application, and the internal parameter matrix are calculated
+The cameras are calibrated with the help of matlab camera calibration application, and the internal and external parameter matrixs are calculated
 
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Camera_Calibration.png" width="50%" height="50%">
+
+The A matrixs for two cameras are calculated, and the 3d coordinates of an object detected in two cameras are calculated by inputing the pixel locations of the object in two cameras' picture frame into the A matrixs. Due to the A matrixs rank deficient nature, the solution can be solved by calculating its V vector corresponding to its smallest signular value with SVD. 
+
+```matlab
+#------------CALCULATING 3D COORDINATES FROM PIXEL LOCATIONS
+%%FORM A3 MATRIX
+%PIXEL LOCATIONS IN THE UPPER AND LOWER CAMERA FRAME
+xu_p=1214;
+yu_p=87;
+xd_p=904;
+yd_p=155;
+
+%A MATRIXS OF TWO CAMERAS
+A_up=[yu_p*P_up3-P_up2;
+      P_up1-xu_p*P_up3;
+      xu_p*P_up2-yu_p*P_up1];
+
+A_down=[yd_p*P_down3-P_down2;
+        P_down1-xd_p*P_down3;
+        xd_p*P_down2-yd_p*P_down1];
+       
+%CALCULAT WORLD COORDINATE
+A=vertcat(A_up,A_down);
+
+%FIND SINGULAR VALUE DECOMPOSITION AND V VECTOR CORRESPONDING TO SMALLEST SINGULAR VALUE
+[~,S,V]=svd(A);
+
+%THE 3D COORDINATE IN THE WORLD COORDINATE
+X3D=V(:,end)*(1/V(end));
+
+```
 
 # Algorithm Implementation
 ## Position control
