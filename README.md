@@ -43,6 +43,8 @@ The encoders of the dc motors don't have refernce starting points. In order to h
 ![Initialization](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Initialization.gif)
 
 The same system is also being adopted to prevent overshoot of the arm motion. When the arm moves out of defined angle range, the lever switch will be triggered, and an interrupt function that recalibrate robotic manipulator will be performed.
+![Safe Switch](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Safe_Switch.JPG)
+![Safe Switch2](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Safe_Switch2.JPG)
 ## Force sensor calibration
 ## Stereo camera construction & calibration
 
