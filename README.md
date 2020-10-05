@@ -116,8 +116,8 @@ A stereo camera is made by combining two raspberry pi 5 MP camreas, the distance
 
 <p float="left">
    <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_1.JPG" width="30%" height="30%">
-   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_4.JPG" width="30%" height="30%">
    <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_2.JPG" width="30%" height="30%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_Position.JPG.JPG" width="30%" height="30%">
 </p>
 
 The cameras are calibrated with the help of matlab camera calibration application, and the internal and external parameter matrixs are calculated
