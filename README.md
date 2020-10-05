@@ -103,8 +103,8 @@ The same system is also being adopted to prevent overshoot of the arm motion. Wh
 The force and sensor reading relationship are being measured by attaching the FSR(force sensitive resistor) to the bottom of a plastic plate, with rice gradually added to the plate. The corresponding weight of the rice and the plate are tabulated with respect to the sensor readings of the FSR.
 
 <p float="left">
-   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure.JPG" width="30%" height="30%">
-   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure_Rice.JPG" width="30%" height="30%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure.JPG" width="45%" height="45%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure_Rice.JPG" width="45%" height="45%">
 </p>
 
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Sensor_Graph.png" width="80%" height="80%">
