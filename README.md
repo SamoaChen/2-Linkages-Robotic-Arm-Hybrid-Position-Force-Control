@@ -104,7 +104,7 @@ The force and sensor reading relationship are being measured by attaching the FS
 
 <p float="left">
    <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure.JPG" width="45%" height="45%">
-   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure_Rice.JPG" width="45%" height="45%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure_Rice1.JPG" width="45%" height="45%">
 </p>
 
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Sensor_Graph.png" width="91%" height="91%">
