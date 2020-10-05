@@ -40,6 +40,17 @@ H1=- l1*l2c*m3*sin(theta2)*w2^2 - 2*l1*l2c*m3*w1*sin(theta2)*w2 + g*l2c*m3*cos(t
 H2=-l2c*m3*(l1*sin(theta2)*w1^2 + 2*l1*w2*sin(theta2)*w1 - g*cos(theta1 + theta2));
 ```
 ## *Jacobian Matrix*
+The jacobian matrix is being derived by hand and tabulated in matlab for this two linkages manipulator
+```matlab
+#------------THE GRAVITATIONAL AND CORIOLIS EFFECT TERMS
+J11=- l2c*sin(theta1 + theta2) - l1*sin(theta1);
+J21=l2c*cos(theta1 + theta2) + l1*cos(theta1);
+J12=-l2c*sin(theta1 + theta2);
+J22=l2c*cos(theta1 + theta2);
+
+J=[J11, J12;
+    J21, J22];
+```
 ## *Centralized force controler*
 
 # Hardware & softwar prepairation
