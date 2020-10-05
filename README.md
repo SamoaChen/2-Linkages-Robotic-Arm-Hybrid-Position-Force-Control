@@ -5,7 +5,7 @@
 * This project achieved a centralized hybrid position force control on a 2 linkages robotic arm
 * The robotic arm system also integrated self calibrating and angle overshoot proof mechanisms
 
-## Main equipments and material used
+# *Main equipments and material used*
 * Arduino Uno 
 * Raspberry Pi 3b+
 * 2x geared motor with encoder
