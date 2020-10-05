@@ -113,7 +113,12 @@ The relationship are plotted as scatter plot, and a polynomial fit is being appl
 ## Stereo camera construction & calibration
 A stereo camera is made by combining two raspberry pi 5 MP camreas, the distance between the centers of the two cameras are maximized without compromize the overlapping vision area
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure.JPG" width="45%" height="45%">
+<p float="left">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_1.JPG" width="30%" height="30%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_2.JPG" width="30%" height="30%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_3.JPG" width="30%" height="30%">
+</p>
+
 
 # Algorithm Implementation
 ## Position control
