@@ -23,8 +23,9 @@ The robotic manipulator is composed of two arms. Both arm are designed with a le
 ![Robotic Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Second_Arm_Assembly.JPG)
 
 The couplers for connecting motors and arms are designed to be embeded inside of the arms to decrease the distance of the arm from the motor, so as a result decreasing potential undesired torques that could cause connection point failure. Because there are force sensor wires that runs through the second arm, a tunnel has been carved out for organizing those wires to prevent potential tangling with the rotor.
-![Robotic Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm_Interior_Glue.JPG)
-![Robotic Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm.JPG)
+![New_Second_Arm_Interior_Glue](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm_Interior_Glue.JPG)
+![New_Second_Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm.JPG)
+![First_Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/First_Arm.JPG)
 
 
 ## *Initialization and overshoot prevention*
