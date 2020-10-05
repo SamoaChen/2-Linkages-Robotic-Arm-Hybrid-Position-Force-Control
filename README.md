@@ -16,7 +16,7 @@
 * Epoxy
 
 # *Hardware & softwar prepairation*
-## *Arm design & building*
+### *Arm design & building*
 ## *Initialization and overshoot prevention*
 ## *Force sensor calibration*
 ## *Stereo camera construction & calibration*
