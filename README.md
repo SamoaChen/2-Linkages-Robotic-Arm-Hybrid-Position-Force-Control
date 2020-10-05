@@ -73,13 +73,14 @@ A 5% of physical parameter measurements error, and a 1% angle measurements error
 ## Arm design & building
 The robotic manipulator is composed of two arms. Both arm are designed with a length of 10 cm to maximize the torque output of the geared motors without compromising too much of the reachable task space. Because the only available constructing material for the arm cardboard sheets dissected from amazon shipping packages, which has pretty low material strength when used individually, the strength of the arms are maximized by stacking several layers of cardboard sheets. Since the internal force that the arms would experiece are planner, the supporting patterns inside of each layer of cardboard sheet is aligned so that the arm as a whole can sustain internal couples induced by end effector force easier.
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Second_Arm_Assembly.JPG" width="50%" height="50%">
-*First iteration of the design of the second arm Layers*
-
+<p float="left">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Second_Arm_Assembly.JPG" width="45%" height="45%">
+   |*First iteration of the design of the second arm Layers*|
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm_Interior_Glue.JPG" width="45%" height="45%">
+   |*Internal tunnel carved out for hiding force sensor wires*|
+ </p>
+ 
 The couplers for connecting motors and arms are designed to be embeded inside of the arms to decrease the distance of the arm from the motor, so as a result decreasing potential undesired torques that could cause connection point failure. Because there are force sensor wires that runs through the second arm, a tunnel has been carved out for organizing those wires to prevent potential tangling with the rotor.
-
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm_Interior_Glue.JPG" width="50%" height="50%">
-*Internal tunnel carved out for hiding force sensor wires*
 
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm.JPG" width="50%" height="50%">
 *Version of the finished second arm*
