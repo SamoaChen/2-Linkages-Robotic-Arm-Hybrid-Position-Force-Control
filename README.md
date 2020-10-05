@@ -88,7 +88,7 @@ The couplers for connecting motors and arms are designed to be embeded inside of
 ## Initialization and overshoot prevention
 The encoders of the dc motors don't have refernce starting points. In order to have consistant angle readings, the robotic arm system is being self-calibrated every time the system is initialized. Four lever switches are being glued to the two joints of the robotic manipulator. If the power is on, two arms will keep rotating counter clockwise until the swiches are triggered. A initial angle values are then being assigned to each encoder
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Initialization.gif" width="180%" height="180%">
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Initialization.gif" width="160%" height="160%">
 *Initialization*
 
 The same system is also being adopted to prevent overshoot of the arm motion. When the arm moves out of defined angle range, the lever switch will be triggered, and an interrupt function that recalibrate robotic manipulator will be performed.
@@ -107,7 +107,7 @@ The force and sensor reading relationship are being measured by attaching the FS
    <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure_Rice.JPG" width="45%" height="45%">
 </p>
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Sensor_Graph.png" width="90%" height="90%">
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Sensor_Graph.png" width="91%" height="91%">
 The relationship are plotted as scatter plot, and a polynomial fit is being applied
 
 ## Stereo camera construction & calibration
