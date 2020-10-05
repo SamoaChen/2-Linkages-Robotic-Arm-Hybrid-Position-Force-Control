@@ -89,7 +89,7 @@ The couplers for connecting motors and arms are designed to be embeded inside of
 ## Angle calibration and overshoot prevention
 The encoders of the dc motors don't have refernce starting points. In order to have consistant angle readings, the robotic arm system is being self-calibrated every time the system is initialized. Four lever switches are being glued to the two joints of the robotic manipulator. If the power is on, two arms will keep rotating counter clockwise until the swiches are triggered. A initial angle values are then being assigned to each encoder
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Initialization.gif" width="50%" height="50%">
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Initialization.gif" width="80%" height="80%">
 *Initialization*
 
 The same system is also being adopted to prevent overshoot of the arm motion. When the arm moves out of defined angle range, the lever switch will be triggered, and an interrupt function that recalibrate robotic manipulator will be performed.
