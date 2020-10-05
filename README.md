@@ -62,6 +62,8 @@ The centralized force controler is being derived with a feed forward term and an
     %%CALCULATING CONTROL INPUT
     torque=H+transpose(J)*(Fd+Kp*Fe+Ki*(ERR_sum));
 ```
+A 5% of physical parameter measurements error, and a 1% angle measurements error are being assigned to the simulated model. The configuration of the robotic manipulator and the x direction and y direction force responses are plotted
+
 # Hardware & softwar prepairation
 ## Arm design & building
 The robotic manipulator is composed of two arms. Both arm are designed with a length of 10 cm to maximize the torque output of the geared motors without compromising too much of the reachable task space. Because the only available constructing material for the arm cardboard sheets dissected from amazon shipping packages, which has pretty low material strength when used individually, the strength of the arms are maximized by stacking several layers of cardboard sheets. Since the internal force that the arms would experiece are planner, the supporting patterns inside of each layer of cardboard sheet is aligned so that the arm as a whole can sustain internal couples induced by end effector force easier.
