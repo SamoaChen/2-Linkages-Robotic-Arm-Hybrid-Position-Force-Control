@@ -16,7 +16,7 @@
 * Epoxy
 
 # *Hardware & softwar prepairation*
-### *Arm design & building*
+## *Arm design & building*
 ## *Initialization and overshoot prevention*
 ## *Force sensor calibration*
 ## *Stereo camera construction & calibration*
@@ -25,3 +25,9 @@
 ## *Position control*
 ## *Hybrid position force control*
 ## *Object tracing*
+
+
+```python
+s = "Python syntax highlighting"
+print s
+```
