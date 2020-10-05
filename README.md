@@ -80,11 +80,10 @@ The robotic manipulator is composed of two arms. Both arm are designed with a le
  
 The couplers for connecting motors and arms are designed to be embeded inside of the arms to decrease the distance of the arm from the motor, so as a result decreasing potential undesired torques that could cause connection point failure. Because there are force sensor wires that runs through the second arm, a tunnel has been carved out for organizing those wires to prevent potential tangling with the rotor.
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm.JPG" width="50%" height="50%">
-*Version of the finished second arm*
-
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/First_Arm.JPG" width="50%" height="50%">
-*Version of the finished first arm*
+<p float="left">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/New_Second_Arm.JPG" width="45%" height="45%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/First_Arm.JPG" width="45%" height="45%">
+</p>
 
 ## Initialization and overshoot prevention
 The encoders of the dc motors don't have refernce starting points. In order to have consistant angle readings, the robotic arm system is being self-calibrated every time the system is initialized. Four lever switches are being glued to the two joints of the robotic manipulator. If the power is on, two arms will keep rotating counter clockwise until the swiches are triggered. A initial angle values are then being assigned to each encoder
