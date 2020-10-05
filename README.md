@@ -1,5 +1,6 @@
 # Robotic Arm Hybrid Position Force Control
 ![Robotic Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/IMG_3201.JPG)
+<img src="https://https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/IMG_3201.JPG" width=300 align=right>
 * This is a robotic project built during quarantine time without using 3D printer or laser cutter, the body of the arm is made purely out of stacked cardboard
 * This project achieved a position control on a 2 linkages robotic arm 
 * This project achieved a centralized hybrid position force control on a 2 linkages robotic arm
