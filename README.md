@@ -20,6 +20,7 @@
 The generalized mass matrix and gravitational and coriolis effect terms are calculated with matlab's symbolic tool box, and the complex EOM is be simplified by assuming the acceleration and velocity equals to 0 (force control is assumed to take place at static configuration)
 
 ```matlab
+#-----------EOM
 %% THE MASS MATRIX
 M11=l1^2*m2 + l1^2*m3 + l1c^2*m1 + l2c^2*m3 + 2*l1*l2c*m3*cos(theta2);
 
@@ -42,7 +43,7 @@ H2=-l2c*m3*(l1*sin(theta2)*w1^2 + 2*l1*w2*sin(theta2)*w1 - g*cos(theta1 + theta2
 ## *Jacobian Matrix*
 The jacobian matrix is being derived by hand and tabulated in matlab for this two linkages manipulator
 ```matlab
-%% THE JACOBIAN MATRIX
+#--------------THE JACOBIAN MATRIX
 J11=- l2c*sin(theta1 + theta2) - l1*sin(theta1);
 J21=l2c*cos(theta1 + theta2) + l1*cos(theta1);
 J12=-l2c*sin(theta1 + theta2);
@@ -54,7 +55,7 @@ J=[J11, J12;
 ## *Centralized force controler*
 The centralized force controler is being derived with a feed forward term and an feed back term
 ```matlab
-%% THE FORCE CONTROLER
+#--------------THE FORCE CONTROLER
 %%CALCULATING FORCE ERROR
 Fe=Fd-F_tip;
 %%UPDATE ERR_sum
