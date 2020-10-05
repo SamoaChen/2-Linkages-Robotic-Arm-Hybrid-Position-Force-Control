@@ -15,4 +15,4 @@
 * Regular cardboard
 * Epoxy
 
-![github](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Position_Force_Control.gif)
+![Position Force Control](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Position_Force_Control.gif)
