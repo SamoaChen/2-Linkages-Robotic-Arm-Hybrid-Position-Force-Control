@@ -17,7 +17,24 @@
 
 # Simulation
 ## *EOM of the robotic manipulator*
+The generalized mass matrix and gravitational and coriolis effect terms are calculated with matlab's symbolic tool box, and the complex EOM is be simplified by assuming the acceleration and velocity equals to 0 (force control is assumed to take place at static configuration)
+
 ```matlab
+#-------------THE MASS MATRIX
+M11=l1^2*m2 + l1^2*m3 + l1c^2*m1 + l2c^2*m3 + 2*l1*l2c*m3*cos(theta2);
+
+M12=l2c*m3*(l2c + l1*cos(theta2));
+
+M21=l2c*m3*(l2c + l1*cos(theta2));
+
+M22=l2c^2*m3;
+
+M=[M11,M12;
+   M21,M22];
+```
+
+```matlab
+#------------THE GRAVITATIONAL AND CORIOLIS EFFECT TERMS
 H1=- l1*l2c*m3*sin(theta2)*w2^2 - 2*l1*l2c*m3*w1*sin(theta2)*w2 + g*l2c*m3*cos(theta1 + theta2) + g*l1*m2*cos(theta1) + g*l1*m3*cos(theta1) + g*l1c*m1*cos(theta1);
 
 H2=-l2c*m3*(l1*sin(theta2)*w1^2 + 2*l1*w2*sin(theta2)*w1 - g*cos(theta1 + theta2));
