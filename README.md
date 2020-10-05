@@ -42,7 +42,7 @@ H2=-l2c*m3*(l1*sin(theta2)*w1^2 + 2*l1*w2*sin(theta2)*w1 - g*cos(theta1 + theta2
 ## *Jacobian Matrix*
 The jacobian matrix is being derived by hand and tabulated in matlab for this two linkages manipulator
 ```matlab
-#------------THE GRAVITATIONAL AND CORIOLIS EFFECT TERMS
+#------------THE JACOBIAN MATRIX
 J11=- l2c*sin(theta1 + theta2) - l1*sin(theta1);
 J21=l2c*cos(theta1 + theta2) + l1*cos(theta1);
 J12=-l2c*sin(theta1 + theta2);
@@ -52,7 +52,16 @@ J=[J11, J12;
     J21, J22];
 ```
 ## *Centralized force controler*
-
+The centralized force controler is being derived with a feed forward term and an feed back term
+```matlab
+#------------THE FORCE CONTROLER
+    %%CALCULATING FORCE ERROR
+    Fe=Fd-F_tip;
+    %%UPDATE ERR_sum
+    ERR_sum=ERR_sum+Fe;
+    %%CALCULATING CONTROL INPUT
+    torque=H+transpose(J)*(Fd+Kp*Fe+Ki*(ERR_sum));
+```
 # Hardware & softwar prepairation
 ## Arm design & building
 The robotic manipulator is composed of two arms. Both arm are designed with a length of 10 cm to maximize the torque output of the geared motors without compromising too much of the reachable task space. Because the only available constructing material for the arm cardboard sheets dissected from amazon shipping packages, which has pretty low material strength when used individually, the strength of the arms are maximized by stacking several layers of cardboard sheets. Since the internal force that the arms would experiece are planner, the supporting patterns inside of each layer of cardboard sheet is aligned so that the arm as a whole can sustain internal couples induced by end effector force easier.
