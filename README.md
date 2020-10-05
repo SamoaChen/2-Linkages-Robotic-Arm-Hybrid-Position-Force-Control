@@ -64,8 +64,8 @@ The centralized force controler is being derived with a feed forward term and an
 ```
 A 5% of physical parameter measurements error, and a 1% angle measurements error are being assigned to the simulated model. The configuration of the robotic manipulator and the x direction and y direction force responses are plotted
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Manipulator_Config.png" width="50%" height="50%">
-![Manipulator Config](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Manipulator_Config.png)
-![Force Response](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Force_Response.png)
+
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Force_Response.png" width="50%" height="50%">
 
 # Hardware & softwar prepairation
 ## Arm design & building
