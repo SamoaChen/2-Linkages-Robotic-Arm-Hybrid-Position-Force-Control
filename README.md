@@ -1,5 +1,4 @@
 # Robotic Arm Hybrid Position Force Control
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Arm_Display_Final_with_Curtain_edited.jpg" width="400" height="790">
 ![Robotic Arm](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Arm_Display_Final_with_Curtain_edited.jpg)
 * This is a robotic project built during quarantine time without using 3D printer or laser cutter, the body of the arm is made purely out of stacked cardboard
 * This project achieved a position control on a 2 linkages robotic arm 
@@ -64,6 +63,7 @@ The centralized force controler is being derived with a feed forward term and an
     torque=H+transpose(J)*(Fd+Kp*Fe+Ki*(ERR_sum));
 ```
 A 5% of physical parameter measurements error, and a 1% angle measurements error are being assigned to the simulated model. The configuration of the robotic manipulator and the x direction and y direction force responses are plotted
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Manipulator_Config.png" width="400" height="400">
 ![Manipulator Config](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Manipulator_Config.png)
 ![Force Response](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Force_Response.png)
 
