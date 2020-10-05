@@ -169,6 +169,6 @@ To control the position and the force at the same time, the position reading and
 
 ## Object tracing
 
-To trace the back ball with the robotic end effector, two images are taken with the stereo vision camera, and the pixel coordinates are being calculated using openCV haul circle dectioin. The 3D coordinates of the ball is calculated by feeding the pixel locations into the A matrixs. The x and the y coordinates are feeded into the manipulator position control algorithm.
+To trace the back ball with the robotic end effector, two images are taken with the stereo vision camera, and the pixel coordinates are being calculated using openCV haul circle dectioin. The 3D coordinates of the ball is calculated by feeding the pixel locations into the A matrixs. The x and the y coordinates are feeded into the manipulator position control algorithm
 
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Ball_Tracing.gif" width="80%" height="80%">
