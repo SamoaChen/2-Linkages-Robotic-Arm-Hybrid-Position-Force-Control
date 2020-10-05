@@ -93,11 +93,11 @@ The encoders of the dc motors don't have refernce starting points. In order to h
 
 The same system is also being adopted to prevent overshoot of the arm motion. When the arm moves out of defined angle range, the lever switch will be triggered, and an interrupt function that recalibrate robotic manipulator will be performed.
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Safe_Switch.JPG" width="50%" height="50%">
-*Lever switches on the second joint*
+<p float="left">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Safe_Switch.JPG" width="45%" height="45%">
+   <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Safe_Switch_2.JPG" width="45%" height="45%">
+</p>
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Safe_Switch_2.JPG" width="50%" height="50%">
-*Lever switches on the first joint*
 
 ## Force sensor calibration
 The force and sensor reading relationship are being measured by attaching the FSR(force sensitive resistor) to the bottom of a plastic plate, with rice gradually added to the plate. The corresponding weight of the rice and the plate are tabulated with respect to the sensor readings of the FSR.
