@@ -55,12 +55,12 @@ J=[J11, J12;
 The centralized force controler is being derived with a feed forward term and an feed back term
 ```matlab
 #------------THE FORCE CONTROLER
-    %%CALCULATING FORCE ERROR
-    Fe=Fd-F_tip;
-    %%UPDATE ERR_sum
-    ERR_sum=ERR_sum+Fe;
-    %%CALCULATING CONTROL INPUT
-    torque=H+transpose(J)*(Fd+Kp*Fe+Ki*(ERR_sum));
+%%CALCULATING FORCE ERROR
+Fe=Fd-F_tip;
+%%UPDATE ERR_sum
+ERR_sum=ERR_sum+Fe;
+%%CALCULATING CONTROL INPUT
+torque=H+transpose(J)*(Fd+Kp*Fe+Ki*(ERR_sum));
 ```
 A 5% of physical parameter measurements error, and a 1% angle measurements error are being assigned to the simulated model. The configuration of the robotic manipulator and the x direction and y direction force responses are plotted
 
