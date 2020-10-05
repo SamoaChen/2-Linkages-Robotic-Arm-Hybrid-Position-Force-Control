@@ -157,7 +157,7 @@ X3D=V(:,end)*(1/V(end));
 
 # Algorithm Implementation
 ## Position control
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_1.JPG" width="30%" height="30%">
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Position_Control.gif" width="30%" height="30%">
 ## Hybrid position force control
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Stereo_Camera_1.JPG" width="30%" height="30%">
 ## Object tracing
