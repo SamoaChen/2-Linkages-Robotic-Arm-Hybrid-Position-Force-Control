@@ -19,7 +19,7 @@
 ## *Arm design & building*
 ## *Initialization and overshoot prevention*
 ## *Force sensor calibration*
-## *Stereo camera construction & calibration
+## *Stereo camera construction & calibration*
 
 # *Algorithm Implementation*
 ## *Position control*
