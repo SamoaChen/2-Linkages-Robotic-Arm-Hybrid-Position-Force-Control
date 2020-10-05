@@ -157,7 +157,7 @@ X3D=V(:,end)*(1/V(end));
 
 # Algorithm Implementation
 ## Position control
-Because only one degree of force can be measured, the force controller can not fully implemented. In order to demonstrate the feasibility of the centralized force control, I replaced the force sensor reading with the position reading of the end effector. Since the direction of force error and position error are the same, the force controller can be used to control the position of the end effector. But because the acceleartion and velocity are assumed to be zero when deriving the equation for the force controller, the controlling process won't be perfect.
+Because only one degree of force can be measured, the force controller can not fully implemented. In order to demonstrate the feasibility of the centralized force control, I replaced the force sensor reading with the position reading of the end effector. Since the direction of force error and position error are the same, the force controller can be used to control the position of the end effector. But because the acceleartion and velocity are assumed to be zero when deriving the equation for the force controller, one need to imagine the motion of the end effector as the change in the end effector force output in a faster time scale
 
 <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Position_Control.gif" width="80%" height="80%">
 
