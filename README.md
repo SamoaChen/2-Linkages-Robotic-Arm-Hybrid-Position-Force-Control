@@ -107,7 +107,7 @@ The force and sensor reading relationship are being measured by attaching the FS
    <img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/FSR_Curve_Measure_Rice.JPG" width="45%" height="45%">
 </p>
 
-<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Sensor_Graph.png" width="80%" height="80%">
+<img src="https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Sensor_Graph.png" width="100%" height="100%">
 The relationship are plotted as scatter plot, and a polynomial fit is being applied
 
 ## Stereo camera construction & calibration
