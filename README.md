@@ -15,8 +15,11 @@
 * Regular cardboard
 * Epoxy
 
+# *Simulation*
+
 # *Hardware & softwar prepairation*
 ## *Arm design & building*
+The robotic manipulator is composed of two arms. Both arm are designed with a length of 10 cm to maximize the torque output of the geared motors without compromising too much of the reachable task space. Because the only available constructing material for the arm cardboard sheets dissected from amazon shipping packages, which has pretty low material strength when used individually, the strength of the arms are maximized by stacking several layers of cardboard sheets. The supporting patterns inside of each layer of cardboard sheet is misaligned with adjacent sheets in purpose, so to increase the arm strength.
 ## *Initialization and overshoot prevention*
 ## *Force sensor calibration*
 ## *Stereo camera construction & calibration*
@@ -25,9 +28,3 @@
 ## *Position control*
 ## *Hybrid position force control*
 ## *Object tracing*
-
-
-```python
-s = "Python syntax highlighting"
-print s
-```
