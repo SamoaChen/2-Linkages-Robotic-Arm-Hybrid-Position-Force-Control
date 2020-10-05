@@ -15,4 +15,13 @@
 * Regular cardboard
 * Epoxy
 
-![Position Force Control](https://github.com/SamoaChen/2-Linkages-Robotic-Arm-Hybrid-Position-Force-Control/blob/master/images/Position_Force_Control.gif)
+# *Hardware & softwar prepairation*
+## *Arm design & building*
+## *Initialization and overshoot prevention*
+## *Force sensor calibration*
+## *Stereo camera construction & calibration
+
+# *Algorithm Implementation*
+## *Position control*
+## *Hybrid position force control*
+## *Object tracing*
