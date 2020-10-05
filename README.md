@@ -17,6 +17,11 @@
 
 # Simulation
 ## *EOM of the robotic manipulator*
+```matlab
+H1=- l1*l2c*m3*sin(theta2)*w2^2 - 2*l1*l2c*m3*w1*sin(theta2)*w2 + g*l2c*m3*cos(theta1 + theta2) + g*l1*m2*cos(theta1) + g*l1*m3*cos(theta1) + g*l1c*m1*cos(theta1);
+
+H2=-l2c*m3*(l1*sin(theta2)*w1^2 + 2*l1*w2*sin(theta2)*w1 - g*cos(theta1 + theta2));
+```
 ## *Jacobian Matrix*
 ## *Centralized force controler*
 
